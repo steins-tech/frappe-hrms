@@ -1,0 +1,5 @@
+# The mariadb CLI shipped in frappe/bench defaults to ssl-mode=REQUIRED, while the
+# mariadb:10.8 container has SSL disabled. frappe uses that CLI to create the
+# database during `bench new-site`, so tell the client not to require SSL.
+[client]
+skip-ssl
