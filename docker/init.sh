@@ -79,6 +79,9 @@ fi
 
 # Idempotent: prints "App hrms already installed" when it is
 bench --site hrms.localhost install-app hrms
+
+# Apply Employee form display settings on every container start.
+bench --site hrms.localhost execute "exec(open('/workspace/ensure_employee_form_customizations.py').read(), globals())"
 bench --site hrms.localhost clear-cache
 
 exec bench start

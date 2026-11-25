@@ -58,6 +58,18 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "circle-alert",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "异常报告",
+   "link_to": "integration-exceptions",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
    "icon": "database",
    "indent": 1,
    "keep_closed": 1,
@@ -148,7 +160,7 @@
    "url": "/desk/hr-settings#employee_tab"
   }
  ],
- "modified": "2026-08-07 12:00:00.000000",
+ "modified": "2026-11-24 17:04:20.097798",
  "modified_by": "Administrator",
  "module": "HR Setup",
  "name": "HR Setup",
